@@ -1,0 +1,15 @@
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\bin\Debug\netcoreapp3.1\GalaxyArmies.Data.deps.json
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\bin\Debug\netcoreapp3.1\GalaxyArmies.Data.runtimeconfig.json
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\bin\Debug\netcoreapp3.1\GalaxyArmies.Data.runtimeconfig.dev.json
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\bin\Debug\netcoreapp3.1\GalaxyArmies.Data.dll
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\bin\Debug\netcoreapp3.1\GalaxyArmies.Data.pdb
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\bin\Debug\netcoreapp3.1\GalaxyArmies.Core.dll
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\bin\Debug\netcoreapp3.1\GalaxyArmies.Core.pdb
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\obj\Debug\netcoreapp3.1\GalaxyArmies.Data.csprojAssemblyReference.cache
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\obj\Debug\netcoreapp3.1\GalaxyArmies.Data.AssemblyInfoInputs.cache
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\obj\Debug\netcoreapp3.1\GalaxyArmies.Data.AssemblyInfo.cs
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\obj\Debug\netcoreapp3.1\GalaxyArmies.Data.csproj.CoreCompileInputs.cache
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\obj\Debug\netcoreapp3.1\GalaxyArmies.Data.csproj.CopyComplete
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\obj\Debug\netcoreapp3.1\GalaxyArmies.Data.dll
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\obj\Debug\netcoreapp3.1\GalaxyArmies.Data.pdb
+D:\Practice\GalaxyArmies\GalaxyArmies.Data\obj\Debug\netcoreapp3.1\GalaxyArmies.Data.genruntimeconfig.cache
