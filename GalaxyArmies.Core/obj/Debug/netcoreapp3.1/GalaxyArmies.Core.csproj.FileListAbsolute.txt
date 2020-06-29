@@ -1,0 +1,9 @@
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\bin\Debug\netcoreapp3.1\GalaxyArmies.Core.deps.json
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\bin\Debug\netcoreapp3.1\GalaxyArmies.Core.dll
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\bin\Debug\netcoreapp3.1\GalaxyArmies.Core.pdb
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\obj\Debug\netcoreapp3.1\GalaxyArmies.Core.csprojAssemblyReference.cache
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\obj\Debug\netcoreapp3.1\GalaxyArmies.Core.AssemblyInfoInputs.cache
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\obj\Debug\netcoreapp3.1\GalaxyArmies.Core.AssemblyInfo.cs
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\obj\Debug\netcoreapp3.1\GalaxyArmies.Core.csproj.CoreCompileInputs.cache
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\obj\Debug\netcoreapp3.1\GalaxyArmies.Core.dll
+D:\Practice\GalaxyArmies\GalaxyArmies.Core\obj\Debug\netcoreapp3.1\GalaxyArmies.Core.pdb
