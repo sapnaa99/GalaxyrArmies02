@@ -1,0 +1,53 @@
+﻿@page
+@model GalaxyArmies.Pages.Practice.IndexModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>My test Practice index view</h1>
+
+<!--@Model.Message
+<br />
+@Model.MessageSecond-->
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            @*<input type="search" class="form-control" value="" name="searchTerm"/>*@
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-btn">
+                <button class="input-group-btn btn-default">
+                    <i class="glyphicon glyphicon-search">
+                    </i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    @foreach (var item in Model.galaxyarmiesmodel)
+    {
+        <tr>
+            <td>@item.Address</td>
+            <td>@item.Name</td>
+            <td>@item.PhoneNumber</td>
+            <td>@item.Armies</td>
+            <td>
+                @*<a class="btn btn-lg" href="/Practice/Detail?galayArmiesId=@item.Id">*@
+                <a class="btn btn-success" asp-page="./Detail" asp-route-galaxyArmiesId="@item.Id">
+                    <i class="glyphicon glyphicon-zoom-in">Detail</i>
+
+                </a>
+                <a class="btn btn-success" asp-page="./Edit" asp-route-galaxyArmiesId="@item.Id">
+                    <i class="glyphicon glyphicon-zoom-in">Edit</i>
+                </a>
+                <a class="btn btn-danger" asp-page="./Delete" asp-route-galaxyArmiesId="@item.Id">
+                    <i class="glyphicon glyphicon-zoom-in">Delete</i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>
+
+<a asp-page="./Create" class="btn-default">Add New</a>

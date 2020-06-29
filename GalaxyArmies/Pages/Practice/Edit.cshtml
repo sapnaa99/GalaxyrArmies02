@@ -1,0 +1,41 @@
+﻿@page "{galaxyArmiesId:long}"
+@model GalaxyArmies.Pages.Practice.EditModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Edit Your Data @Model.GalaxyArmiesModel.Name</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="GalaxyArmiesModel.Id" />
+
+    <div class="form-group">
+        <label asp-for="GalaxyArmiesModel.Name">
+        </label>
+        <input asp-for="GalaxyArmiesModel.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="GalaxyArmiesModel.Name"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GalaxyArmiesModel.Address"></label>
+        <input asp-for="GalaxyArmiesModel.Address" class="form-control" />
+        <span class="text-danger" asp-validation-for="GalaxyArmiesModel.Name"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GalaxyArmiesModel.PhoneNumber"></label>
+        <input asp-for="GalaxyArmiesModel.PhoneNumber" class="form-control" />
+        <span class="text-danger" asp-validation-for="GalaxyArmiesModel.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GalaxyArmiesModel.Armies"></label>
+        <select class="form-control" asp-for="GalaxyArmiesModel.Armies" asp-items="Model.Armies">
+        </select>
+        <span class="text-danger" asp-validation-for="GalaxyArmiesModel.Armies"></span>
+    </div>
+   
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+
+<a asp-page="./Index" class="btn btn-success"> All Galaxy Armies</a>

@@ -1,0 +1,23 @@
+﻿@page "{galaxyArmiesId:long}"
+
+@model GalaxyArmies.Pages.Practice.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.GalaxyArmiesModel.Name</h2>
+<div>
+    Id: @Model.GalaxyArmiesModel.Id    
+</div>
+
+<div>
+    Location : @Model.GalaxyArmiesModel.Address
+</div>
+<div>
+    PhoneNumber: @Model.GalaxyArmiesModel.PhoneNumber
+</div>
+<div>
+    ArmiesType: @Model.GalaxyArmiesModel.Armies
+</div>
+<a asp-page="./Index" class="btn btn-success"> All Galaxy Armies</a>

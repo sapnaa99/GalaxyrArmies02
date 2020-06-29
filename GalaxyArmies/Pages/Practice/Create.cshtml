@@ -1,0 +1,37 @@
+﻿@page
+@model GalaxyArmies.Pages.Practice.CreateModel
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<form method="post">   
+
+    <div class="form-group">
+        <label asp-for="galaxyarmiesmodel.Name">
+        </label>
+        <input asp-for="galaxyarmiesmodel.Name" class="form-control" />
+        <span class="text-danger" asp-validation-for="galaxyarmiesmodel.Name"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="galaxyarmiesmodel.Address"></label>
+        <input asp-for="galaxyarmiesmodel.Address" class="form-control" />
+        <span class="text-danger" asp-validation-for="galaxyarmiesmodel.Name"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="galaxyarmiesmodel.PhoneNumber"></label>
+        <input asp-for="galaxyarmiesmodel.PhoneNumber" class="form-control" />
+        <span class="text-danger" asp-validation-for="galaxyarmiesmodel.Name"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="galaxyarmiesmodel.Armies"></label>
+        <select class="form-control" asp-for="galaxyarmiesmodel.Armies" asp-items="Model.Armies">
+        </select>
+        <span class="text-danger" asp-validation-for="galaxyarmiesmodel.Armies"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
